@@ -1,6 +1,6 @@
 <template>
   <div class="conversor">
-    <h2>{{ moedaA }} To {{ moedaB }}</h2>
+    <h2>{{ moedaA }} zu {{ moedaB }}</h2>
     <input type="text" v-model="moedaA_value" v-bind:placeholder="moedaA">
     <input type="button" value="Moduskonverter" v-on:click="converter">
     <h2>{{ moedaB_value }}</h2>
